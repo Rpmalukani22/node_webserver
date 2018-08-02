@@ -1,0 +1,16 @@
+{
+  "name": "learnexpress",
+  "version": "1.0.0",
+  "description": "this package is for learning express library",
+  "main": "web-server-dummy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node webserver.js"
+  },
+  "author": "Ruchitesh Malukani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  }
+}
