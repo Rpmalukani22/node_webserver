@@ -11,6 +11,12 @@ app.get('/',(req,res)=>{
     name:"Ruchitesh"
   });
 });
+app.get('/help',(req,res)=>{
+  res.render('template',{
+    pageTitle:"Help",
+    name:"Ruchitesh Malukani"
+  })
+});
 app.get('/about',(req,res)=>{
   res.render('template1',{
     pageTitle:"About",
